@@ -63,22 +63,22 @@ function switchToBrush() {
 
 // Create Canvas
 function createCanvas() {
-  // canvas.width = ;
-  // canvas.height = ;
-  // context.fillStyle = ;
-  // context.fillRect();
+  canvas.width = ;
+  canvas.height = ;
+  context.fillStyle = ;
+  context.fillRect();
   body.appendChild(canvas);
 
 }
 
-// // Clear Canvas
-// clearCanvasBtn.addEventListener('click', () => {
-//   createCanvas();
-//   drawnArray = [];
-//   // Active Tool
-//   activeToolEl.textContent = 'Canvas Cleared';
-//   setTimeout(switchToBrush, 1500);
-// });
+// Clear Canvas
+clearCanvasBtn.addEventListener('click', () => {
+  createCanvas();
+  drawnArray = [];
+  // Active Tool
+  activeToolEl.textContent = 'Canvas Cleared';
+  setTimeout(switchToBrush, 1500);
+});
 
 // // Draw what is stored in DrawnArray
 // function restoreCanvas() {
